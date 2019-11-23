@@ -1,0 +1,11 @@
+.navBg{
+  width: 100vw;
+  height: 100vh;
+  background: #101010;
+  font-size: 40px;
+  font-family: Cubic;
+}
+ul {
+  margin-top: 0px;
+  color: #f5f5f5;
+}

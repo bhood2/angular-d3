@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-.map {
-  stroke: #ffffff;
-}
-.border-glow {
-  stroke: #191919;
+@font-face {
+  font-family: Cubic;
+  src: url(assets/fonts/CubicCoreMono.ttf) format('truetype');
 }
