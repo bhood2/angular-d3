@@ -1,0 +1,19 @@
+.toolbar {
+  height: 60px;
+  margin: -8px -8px 0px;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  font-family: Cubic;
+  font-size: 50px;
+}
+.toolbar img {
+  margin: 0 5px;
+}
+.navBack {
+  position: absolute;
+  right: 2vw;
+  font-size: 20px;
+  cursor: pointer;
+}

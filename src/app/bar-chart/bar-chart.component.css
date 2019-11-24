@@ -1,0 +1,13 @@
+.barChart {
+  width: 90vw;
+  height: 80vh;
+}
+
+.barChart .axis path,
+.barChart .axis line {
+  stroke: #999;
+}
+
+.barChart .axis text {
+  fill: #999;
+}
