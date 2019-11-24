@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
+## Install dependencies
+
+Run `npm i --save d3` then, `npm i --save-dev @types/d3`.  
+Also, topojson and geojson types will be needed to render the map page:
+`npm i --save topojson`, `npm i --save-dev @types/topojson`, `npm i --save-dev @types/geojson`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
