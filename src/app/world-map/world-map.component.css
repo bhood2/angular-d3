@@ -1,0 +1,21 @@
+.mapbg {
+  background-color: #4a1511;
+  /* #020016 */
+  width: 100vw;
+}
+.gradientBg{
+  width: 100vw;
+  height: 100vh;
+  background: #7d7e7d; /* Old browsers */
+  background: -moz-linear-gradient(#7c5757 0%, #4a1511 30%, #000000 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(#7c5757 0%, #4a1511 30%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(#7c5757 0%, #4a1511 30%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57607c', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.map {
+  stroke: #ffffff;
+}
+.countryBorder {
+  stroke: #999999;
+  fill: none;
+}

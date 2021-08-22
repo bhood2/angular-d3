@@ -1,0 +1,33 @@
+.homeGradientBg{
+  width: 100vw;
+  height: 100vh;
+  background: #b90000; /* Old browsers */
+  background: -moz-linear-gradient(#b90000 0%, #ffffff 50%, #0d0080 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(#b90000 0%, #ffffff 50%, #0d0080 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(#b90000 0%, #ffffff 50%, #0d0080 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b90000', endColorstr='#0d0080',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.title {
+  font-family: Cubic;
+  font-size: 100px;
+  color: #000000;
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}
+.enter {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  font-family: Cubic;
+  font-size: 40px;
+  background: transparent;
+  color: #000;
+  border: 2px solid darkred;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.enter:hover {
+  background: #1e1e1e;
+  color: whitesmoke;
+}
